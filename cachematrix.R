@@ -1,4 +1,7 @@
-## makeCacheMatrix
+## With these two functions we can create an object
+## that stores a matrix and cache's its inverse
+
+## 1. makeCacheMatrix
 ## receives a matrix
 ## returns a list object
 makeCacheMatrix <- function(x = matrix()) {
@@ -24,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve 
+## 2. cacheSolve 
 ## receives an object (x) of type list and 
 ## returns the inverse of the matrix from object x
 cacheSolve <- function(x, ...) {
