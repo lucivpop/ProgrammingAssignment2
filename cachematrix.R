@@ -42,7 +42,7 @@ cacheSolve <- function(x, ...) {
     return(s)
   }
   
-  # else, it gets the matrix and store it in data
+  # else, it gets the matrix and store it in y
   # and invert it and cache it
   y <- x$get()
   s <- solve(y, ...)
