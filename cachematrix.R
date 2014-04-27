@@ -44,8 +44,8 @@ cacheSolve <- function(x, ...) {
   
   # else, it gets the matrix and store it in data
   # and invert it and cache it
-  data <- x$get()
-  s <- solve(data, ...)
+  y <- x$get()
+  s <- solve(y, ...)
   x$setsolve(s)
   
   ## Returns the inversed matrix 
